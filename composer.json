@@ -1,0 +1,24 @@
+{
+  "name": "youshido/silex-graphql",
+  "description": "Silex graphql controller provider",
+  "minimum-stability": "stable",
+  "keywords": ["silex", "graphql", "provider", "api"],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Portey Vasil",
+      "email": "portey@gmail.com"
+    }
+
+  ],
+  "autoload": {
+    "psr-4": {
+      "Youshido\\Silex\\": ""
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "youshido/graphql": "~1.0.1",
+    "silex/silex": "~2.0"
+  }
+}
